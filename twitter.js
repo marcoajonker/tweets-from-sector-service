@@ -35,7 +35,7 @@ module.exports = (function() {
                     .uniq()
                     .value()
                     .join(' OR ')
-                    + 'since:' + date.getFullYear()
+                    + ' since:' + date.getFullYear()
                     + '-' + (date.getMonth() + 1)
                     + '-' + date.getDate(), // for query
                 count: 100,
