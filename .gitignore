@@ -1,6 +1,3 @@
 node_modules/*
-sector-service/bin/*
-sector-service/node_modules/*
-sector-service/npm-debug.log
-sector-service/public/*
-sector-service/views/*
+bin/*
+npm-debug.log
