@@ -12,13 +12,13 @@ module.exports = (function() {
 
     return {
         tweets: tweets
-    }
+    };
 
     function tweets(inputs, done) {
         // splitting companies into groups by name length
         // to make smaller queries to twitter
         var groups = _.values(_.groupBy(inputs, 'length'));
-        var date = new Date()
+        var date = new Date();
         // console.log(groups);
         async.map(groups, function(item, next) {
             //lets go, twitter!

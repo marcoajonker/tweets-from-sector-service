@@ -19,7 +19,7 @@ module.exports = (function() {
 
     return {
         companies: companies
-    }
+    };
 
     function companies(inputs, done) {
         var sectorName, industries;
